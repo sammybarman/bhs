@@ -19,10 +19,10 @@ $(document).ready(function(){
 
       $(window).scroll(function(){
 
-       if($(window).scrollTop()>300){
-         $('nav').addClass('red');
+       if($(window).scrollTop()>20){
+         $('nav').addClass('white');
        }else{
-         $('nav').removeClass('red');
+         $('nav').removeClass('white');
        }
     });
   });
